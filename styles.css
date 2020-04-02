@@ -27,20 +27,24 @@ img {
     padding-top: 30px;
     text-align: left;
 }
- 
+
 .portfolio-box-image {
     overflow: hidden;
     border-radius: 4px;
 }
- 
+
 .portfolio-box-image img {
     -o-transition: all .8s;
     -moz-transition: all .8s;
     -webkit-transition: all .8s;
     -ms-transition: all .8s;
     transition: all .8s;
+    padding: 1px;
+    border: 1px solid #021a40;
+    height: 200px;
+    width: 200px;
 }
- 
+
 .portfolio-box-image:hover img {
     -o-transform: scale(1.25);
     -moz-transform: scale(1.25);
@@ -48,14 +52,19 @@ img {
     -ms-transform: scale(1.25);
     transform: scale(1.25);
 }
- 
+
 .portfolio-box h3 {
     margin-top: 30px;
 }
-.portfolio-box h3 a { color: #555; }
-.portfolio-box h3 a:hover, 
-.portfolio-box h3 a:focus { color: #9b59b6; }
- 
+
+.portfolio-box h3 a {
+    color: #555;
+}
+
+.portfolio-box h3 a:hover, .portfolio-box h3 a:focus {
+    color: #9b59b6;
+}
+
 .portfolio-box h3 i {
     padding-left: 10px;
     color: #ccc;
@@ -65,20 +74,23 @@ img {
     -ms-transition: all .3s;
     transition: all .3s;
 }
-.portfolio-box h3:hover i { padding-left: 15px; }
- 
+
+.portfolio-box h3:hover i {
+    padding-left: 15px;
+}
+
 .portfolio-box-date {
     padding-bottom: 10px;
     font-size: 14px;
     color: #aaa;
     text-transform: uppercase;
 }
- 
+
 .portfolio-box-date i {
     padding-right: 5px;
     color: #ddd;
 }
- 
+
 .portfolio-container .section-bottom-button {
     padding-top: 40px;
 }
@@ -88,14 +100,13 @@ img {
 footer {
     background-color: #555;
     color: white;
-    padding: 10px;
+    padding: 5px;
     position: fixed;
-    height: 40px;
+    height: 30px;
     bottom: 0;
     width: 100%;
 }
 
-}
 
 /* On small screens, set height to 'auto' for sidenav and grid */
 
